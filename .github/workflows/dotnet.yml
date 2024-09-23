@@ -4,8 +4,7 @@
 name: .NET
 
 on:
-  commit:
-    branches: ["QuickSort"]
+
   push:
     branches: ["QuickSort"]
   pull_request:
@@ -13,6 +12,7 @@ on:
 
 jobs:
   build:
+  
     runs-on: ubuntu-latest
 
     steps:
