@@ -4,7 +4,6 @@
 name: .NET
 
 on:
-
   push:
     branches: ["QuickSort"]
   pull_request:
