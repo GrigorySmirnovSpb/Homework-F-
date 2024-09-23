@@ -22,4 +22,4 @@ jobs:
     - name: Build
       run: dotnet build --no-restore ./Factor/
     - name: Test
-      run: dotnet test --no-build --verbosity normal ./Factor/tests/
+      run: dotnet test --no-build --verbosity normal ./Factor/tests/FacTest
