@@ -4,10 +4,12 @@
 name: .NET
 
 on:
+  commit:
+    branches: ["QuickSort"]
   push:
-    branches: [ "main" ] ["QuickSort"]
+    branches: ["QuickSort"]
   pull_request:
-    branches: [ "main" ] ["QuickSort"]
+    branches: ["QuickSort"]
 
 jobs:
   build:
